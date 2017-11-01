@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>ShitpostBot 5000</title>
+	<meta name="description" content="ShitpostBot 5000 is a facebook page where a meme is posted every 30 mins by a bot. This website is where you can submit your own source images and templates."/>
+	<meta name="keyword" content="facebook bot meme generator shitpost bot shitpostbot 5000 machine robot randomly generated"/>
+	<meta property="og:title" content="ShitpostBot 5000"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="http://www.shitpostbot.com/resize/200/200?img=%2Fimg%2Ftheme%2Flogo.png"/>
+	<meta property="og:url" content="http://www.shitpostbot.com/sourceimage/"/>
+	<meta property="og:description" content="ShitpostBot 5000 is a facebook page where a meme is posted every 30 mins by a bot."/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/head.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="container">
+		<header>
+            <div id="Header">
+            <div class="mod-banner">
+                <h1 class="AU-Main mod-logo">POLI-SHITPOSTING</h1>
+                    <form action="gallery.html">
+                        <input type="submit" value="Galería" />
+                    </form>            </div>
+            <div>
+                <form>
+                    <div class="mod-caption">
+                        <ul class="mod-login">
+                            <li>
+                                <ul>
+                                    <li class="l-column">
+                                        <input type="text" id="username" name="email" class="state-inp-sign-in hasPlaceholder" placeholder="Email" title="Email" tooltip="Email" clickev="true"></li>
+                                    <li class="l-column">
+                                        <input type="password" id="password" name="password" class="state-inp-sign-in hasPlaceholder" placeholder="Password" title="Password" tooltip="Password" clickev="true"></li>
+                                    <li class="l-column">
+                                        <button type="submit" id="logInButton" name="action" value="SignIn" class="mod-button state-button-alternate state-button-exception">Sign in</button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="l-column">
+                                            <a href="register.html">Registrarse</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+		</header>
+		<br><br><br><br><br>
+				<h2>New Source Image</h2>
+<form action="/sourceimage" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="_token" value="ky5qGXdrMic6ixiXCt4P3MEeKUgOUA4bcmAttmwo">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <p>2-32 characters</p>
+        <input type="text" class="form-control" id="name" name="name" value="">
+    </div>
+    <div class="form-group">
+        <p>JPEG/PNG under 2MB only</p>
+        <label class="btn btn-default" for="image">Choose Image</label>
+        <span></span>
+        <input class="inputfile" type="file" name="image" id="image">
+    </div>
+    <div class="form-group">
+        <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6LcjKgcUAAAAABxkxpVTEldc3ATIo-VcK-pvlSvU" ></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcjKgcUAAAAABxkxpVTEldc3ATIo-VcK-pvlSvU"
+                        frameborder="0" scrolling="no"
+                        style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+    </div>
+    <input type="submit" class="btn btn-primary">
+</form>
+		<hr/>
+	</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="/js/clipboard.min.js"></script>
+	<script>
+		var clipboard = new Clipboard('.clipboard-btn');
+	</script>
+    <script src="/js/lightbox.js"></script>
+	<script src="/js/ajax.js"></script>
+	    <script src="/js/custom-file-input.js"></script>
+</body>
+</html>
